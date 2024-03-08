@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-image: url(cards.gif);
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 400px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+h1{
+    color: #000;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#message{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cards-received,#total{
+    color: rgb(233, 33, 73);
+    font-weight: bolder;
+}
+
+button:first-of-type{
+    width: 50%;
+    border: none;
+    background-color: white;
+    padding: 7px 20px;
+    border-radius: 2px;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:last-of-type{
+    width: 50%;
+    border: none;
+    background-color: white;
+    padding: 7px 20px;
+    border-radius: 2px;
+    color: rgb(233, 33, 73);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
